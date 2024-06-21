@@ -27,6 +27,8 @@ export default function UpdatePostModal({ show, handleClose, postId }) {
     }
   }, [post])
 
+  console.log("hello")
+
   const [imageUrl, setImageUrl] = useState("");
   const [description, setDescription] = useState("");
   const [invalidUrl, setInvalidUrl] = useState(false);
